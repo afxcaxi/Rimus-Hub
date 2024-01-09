@@ -114,7 +114,7 @@ KeyGen = {
     "78SFe04uGr8MwkHS7qhm"
 }
 for i = 1,1 do
-    print(("\n"):rep(70000))
+    print(("\n"):rep(1000))
 end
 spawn(function()
     for i = 1,1 do

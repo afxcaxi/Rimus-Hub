@@ -4,12 +4,12 @@ if Key then
 end
 local KeyA = "PN9ZCIkizP7a5JtZMKDa" --Your Key
 getgenv().Key = KeyA
-getgenv().Hub = "Banana" --AfxcaxiW-Azure, AfxcaxiBanana, AfxcaxiLuxury, AfxcaxiRoyX
+getgenv().Hub = "Banana" 
 KeyGen = {
-    "OWNERSCRIPTSOEZSELLCREATORBYAFXCAXIROBLOXANDHIRIMIANDLUNI",
-    "OWNERSCRIPTSOEZSELLCREATORBYAFXCAXIROBLOXANDHIRIMIANDLUNI1",
-    "OWNERSCRIPTSOEZSELLCREATORBYAFXCAXIROBLOXANDHIRIMIANDLUNI2",
-    "OWNERSCRIPTSOEZSELLCREATORBYAFXCAXIROBLOXANDHIRIMIANDLUNI3",
+    "eBD7nXZU9ATP68cEH1zX12",
+    "eBD7nXZU9ATP68cEH1zX29",
+    "eBD7nXZU9ATP68cEH1zX34",
+    "fy4OHlWWaFmL9zHfSjFYfake",
     "eBD7nXZU9ATP68cEH1zX",
     'fy4OHlWWaFmL9zHfSjFY',
     "TyWTYIUAbHptgDdFHtd1",
@@ -120,21 +120,21 @@ spawn(function()
     for i = 1,1 do
         for lm,cl in pairs(KeyGen) do
             if Key == cl then
-                if Hub == "AfxcaxiW-Azure" then
+                if Hub == "W-Azure" then
                     script_key = "YHGEXghimYSaIOiwqFIpetHBwsdGoQKx"
                     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e1083ba708c27599e97d91c8978c2b2a.lua"))()
-                elseif Hub == "AfxcaxiBanana" then
+                elseif Hub == "Banana" then
                     getgenv().Key = "db5b69977bb00a2b"
                     getgenv().OldBanana = false
                     local c = "https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"
                     loadstring(game:HttpGet(c))()
                     print(("\n"):rep(60000))
-                elseif Hub == "AfxcaxiLuxury" then
+                elseif Hub == "Luxury" then
                     _G.Key = "SGA5F-T3KC4-ZPSFY"
                     _G.DiscordId = "1117103662532141056"
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/Loader.lua"))();
                     print(("\n"):rep(60000))
-                elseif Hub == "AfxcaxiRoyX" then
+                elseif Hub == "RoyX" then
                     _G.Key = "9QJ1L-7EIK2-C9JDH"
                     _G.DiscordId = "1117103662532141056"
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();

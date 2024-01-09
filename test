@@ -5,7 +5,7 @@ end
 local KeyA = "PN9ZCIkizP7a5JtZMKDa" --YourKey
 getgenv().Key = KeyA
 getgenv().Hub = "Banana" --W-Azure, Banana, Luxury, RoyX
-local KeyGen = {
+KeyGen = {
     "GyijBiyjbHoljehaZO62",
     "B2AuccoyM9RTw6Kikqz1",
     "pbxveWiy0I6wAaXP8tnz",
@@ -119,7 +119,7 @@ end
 spawn(function()
     for i = 1,1 do
         for lm,cl in pairs(KeyGen) do
-            if getgenv().Key == cl then
+            if Key == cl then
                 if Hub == "W-Azure" then
                     local keyazu = "YHGEXghimYSaIOiwqFIpetHBwsdGoQKx"
                     if script_key then

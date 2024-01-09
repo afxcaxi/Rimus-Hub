@@ -1,0 +1,16 @@
+--lo
+getgenv().Key = "Afxcaxi-1"
+--cc
+B = {
+    ["Ditmemay"] = {
+        "Afxcaxi-1",
+        "Afxcaxi-2"
+    }
+}
+for i = 1,1 do
+    for lon,me in pairs(B) do
+        if getgenv().Key == me.Ditmemay then
+            print("Hien K Ku E?")
+        end
+    end
+end

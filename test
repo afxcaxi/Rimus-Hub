@@ -113,9 +113,6 @@ KeyGen = {
     "gZFagSmbKzF9SuRDudSt",
     "78SFe04uGr8MwkHS7qhm"
 }
-for i = 1,10 do
-    print(("\n"):rep(800))
-end
 spawn(function()
     for i = 1,1 do
         for lm,cl in pairs(KeyGen) do
@@ -140,17 +137,17 @@ spawn(function()
                     getgenv().OldBanana = false
                     local c = "https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"
                     loadstring(game:HttpGet(c))()
-                    print(("\n"):rep(40))
+                    print(("\n"):rep(60000))
                 elseif Hub == "Luxury" then
                     _G.Key = "SGA5F-T3KC4-ZPSFY"
                     _G.DiscordId = "1117103662532141056"
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/NightsTimeZ/RoyryX/main/Loader.lua"))();
-                    print(("\n"):rep(40))
+                    print(("\n"):rep(60000))
                 elseif Hub == "RoyX" then
                     _G.Key = "9QJ1L-7EIK2-C9JDH"
                     _G.DiscordId = "1117103662532141056"
                     loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
-                    print(("\n"):rep(40))
+                    print(("\n"):rep(60000))
                 end
             end
         end
